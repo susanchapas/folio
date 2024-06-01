@@ -7,7 +7,7 @@ const config = {
     './src/index.js'
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js'
   },
   module: {
@@ -51,7 +51,7 @@ const config = {
   },
   devServer: {
     'static': {
-      directory: './dist'
+      directory: './docs'
     }
   },
   plugins: [
