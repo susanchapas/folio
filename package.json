@@ -4,7 +4,6 @@
   "description": "bink",
   "main": "./src/index.js",
   "scripts": {
-    "clean": "rm dist/bundle.js",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
     "start": "webpack serve --hot --mode development"

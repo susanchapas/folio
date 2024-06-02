@@ -8,7 +8,7 @@ const config = {
   ],
   output: {
     path: path.resolve(__dirname, 'docs'),
-    filename: 'bundle.js'
+    filename: 'bundle.[contenthash].js'
   },
   module: {
     rules: [
